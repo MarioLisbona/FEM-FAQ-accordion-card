@@ -46,7 +46,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 25rem;
-    margin: 10rem 20rem;    
+    margin: 10rem 20rem; 
     border-radius: 1.5em;
     background-color: white;
     background-image: url(./images/bg-pattern-desktop.svg);
@@ -58,7 +58,10 @@ body {
 .image-container,
 .faq-container {
     max-width: 25rem;
-    max-height: 25rem; 
+}
+
+.faq-container {
+    padding-right: 10em;
 }
 
 .image-container img {
@@ -66,6 +69,27 @@ body {
     position: relative;
     left: -3.5rem;
 }
+
+.accordion {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    background-color: white;
+    color: var(--dark-grayish-blue);
+    width: 100%;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--light-grayish-blue);
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
 
 
 
