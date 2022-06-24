@@ -36,6 +36,8 @@ body {
     min-height: 100vh;
     background-color: var(--bg-soft-voilet);
     background-image: linear-gradient(var(--bg-soft-voilet), var(--bg-soft-blue));
+    position: relative;
+    z-index: 5;
 
 }
 
@@ -56,9 +58,13 @@ body {
 .image-container,
 .faq-container {
     max-width: 25rem;
-    max-height: 25rem;
-    outline: 1px solid black;
-    
+    max-height: 25rem; 
+}
+
+.image-container img {
+    width: 95%;
+    position: relative;
+    left: -3.5rem;
 }
 
 
