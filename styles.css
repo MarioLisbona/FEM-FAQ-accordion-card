@@ -42,7 +42,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25rem;
+    min-height: 25rem;
+    max-width: 50rem;
     margin: 10rem 20rem; 
     border-radius: 1.5em;
     background-color: white;
@@ -55,6 +56,11 @@ body {
 .image-container,
 .faq-container {
     max-width: 25rem;
+    max-height: 50rem;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; */
 }
 
 .faq-container {
@@ -62,9 +68,9 @@ body {
 }
 
 .image-container img {
-    width: 95%;
+    width: 120%;
     position: relative;
-    left: -3.5rem;
+    left: -7rem;
 }
 
 .title {
@@ -116,6 +122,35 @@ body {
 
   .panel p {
     padding: 1em 0;
+  }
+
+
+  @media (max-width: 1100px) {
+    .main-container {
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 15rem;
+        min-height: 40rem;
+        background-image: none;
+        padding: 4em 4em;
+    }
+
+    .image-container img {
+        top: -13.3em;
+        right: 0;
+        left: -1.3em;
+    }
+
+    .faq-container {
+        padding: 0;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 3rem;
+        margin-top: -5em;
+        margin-bottom: 1em;;
+    }
   }
 
 
