@@ -14,7 +14,13 @@
 <body>
   <main>
     <div class="main-container">
-      <div class="image-container"><img src="./images/illustration-woman-online-desktop.svg" alt=""></div>
+      <div class="image-container">
+        <picture>
+          <source class="img-desktop" media="(min-width: 1100px)" srcset="./images/illustration-woman-online-desktop.svg">
+          <source class="img-mobile" media="(max-width: 1100px)" srcset="./images/illustration-woman-online-mobile.svg">
+          <img src="./images/illustration-woman-online-mobile.svg" alt="">
+        </picture>
+      </div>
       <div class="faq-container">
         <h1 class="title">FAQ</h1>
         <button class="accordion">How many team members can I invite?</button>
