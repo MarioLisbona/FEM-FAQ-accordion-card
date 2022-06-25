@@ -102,6 +102,13 @@ body {
     right: 5px;
 }
 
+.active::after {
+    content: url(./images/icon-arrow-down.svg);
+    position: absolute;
+    right: 5px;
+    transform: rotate(180deg);
+}
+
 .panel {
     color: var(--dark-grayish-blue);
     background-color: white;
