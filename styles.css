@@ -146,25 +146,26 @@ body {
         background-position:0%;
         flex-direction: column;
         justify-content: space-between;
+        max-width: 27em;
         min-height: 35rem;
         background-image: none;
-        padding: 4em 4em;
+        padding: 2em 2em;
     }
 
     .image-container {
         background-image: url(./images/bg-pattern-mobile.svg);
         background-repeat: no-repeat;
         background-position-y: -1em;
-        background-size: 25em;
+        background-size: 20em;
         position: relative;
         left: 0;
         right: 0;
-        top: -3em;
+        top: -1em;
     }
 
     .image-container img {
-        width: 25em;
-        top: -12em;
+        width: 20em;
+        top: -10em;
         right: 0;
         left: 0;
     }
