@@ -73,6 +73,14 @@ body {
     left: -7rem;
 }
 
+.box-image {
+    position: absolute;
+    left: 28em;
+    width: 13em;
+    top: 12em;
+    z-index: 10;
+}
+
 .title {
     font-weight: 700;
 }
@@ -160,6 +168,10 @@ body {
         top: -12em;
         right: 0;
         left: 0;
+    }
+
+    .box-image {
+        display: none;
     }
 
     .faq-container {
