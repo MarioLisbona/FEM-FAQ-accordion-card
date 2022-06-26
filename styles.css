@@ -146,8 +146,7 @@ body {
         background-position:0%;
         flex-direction: column;
         justify-content: space-between;
-        max-width: 27em;
-        min-height: 35rem;
+        max-width: 30em;
         background-image: none;
         padding: 2em 2em;
     }
@@ -176,12 +175,13 @@ body {
 
     .faq-container {
         padding: 0;
+        padding-bottom: 2em;
     }
 
     .title {
         text-align: center;
         font-size: 3rem;
-        margin-top: -5em;
+        margin-top: -1.5em;
         margin-bottom: 1em;;
     }
   }
