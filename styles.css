@@ -101,6 +101,7 @@ body {
 
 .active {
     color: var(--very-dark-desat-blue);
+    font-weight: 700;
 }
 
 .accordion:hover {
