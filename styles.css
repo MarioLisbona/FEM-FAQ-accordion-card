@@ -146,7 +146,6 @@ body {
         background-position:0%;
         flex-direction: column;
         justify-content: space-between;
-        min-width: 25rem;
         min-height: 35rem;
         background-image: none;
         padding: 4em 4em;
