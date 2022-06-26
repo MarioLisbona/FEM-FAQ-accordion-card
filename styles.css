@@ -192,6 +192,7 @@ body {
 
 /* Frontend Mentor footer */
 .attribution { 
+    color: var(--very-dark-desat-blue);
     font-size: 11px; 
     text-align: center; 
     position: relative;
